@@ -1,0 +1,14 @@
+{
+  "queue_size": 4474,
+  "action_counts": {
+    "rewrite_snippet": 3756,
+    "refresh_content": 461,
+    "refresh_and_rewrite": 257
+  },
+  "baseline_precision_at_20": 0.75,
+  "baseline_precision_at_50": 0.74,
+  "random_forest_precision_at_20": 0.6,
+  "random_forest_precision_at_50": 0.66,
+  "chosen_method": "baseline (Week 4 rule) - outperformed Random Forest under honest client-holdout split, see w05_model.ipynb and w06_validation_audit.ipynb",
+  "data_source": "data/raw/content_refresh_anonymized.csv (30,000-row starter slice)"
+}
